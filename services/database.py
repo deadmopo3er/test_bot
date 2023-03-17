@@ -1,9 +1,8 @@
-# Здесь вы можете настроить подключение к базе данных PostgreSQL и создать таблицы для моделей данных.
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-DATABASE_URL = "postgresql://username:password@localhost/dbname"
+DATABASE_URL = "postgresql://postgres:DeaDMopo3@localhost/test"
 
 engine = create_engine(DATABASE_URL)
 db_session = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=engine))

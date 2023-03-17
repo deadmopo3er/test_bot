@@ -4,6 +4,8 @@ from aiogram.types import BotCommand
 from aiogram.utils import executor
 from aiogram.utils.markdown import text, quote_html
 from aiogram import Bot
+from aiogram.types import BotCommand
+
 
 API_TOKEN = "5228697828:AAHmT4rxELBFZecaERQxo6IxUMCAnZnBYUc"
 

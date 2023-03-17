@@ -1,4 +1,8 @@
+from services.database import db_session
 from models.event import Event
+
+# Остальной код файла остается без изменений
+
 
 def create_event(title, date, time, location, description):
     try:
